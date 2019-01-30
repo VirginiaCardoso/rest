@@ -28,7 +28,36 @@ if($paciente->apenom!=null){
     $paciente_arr = array(
         "hiscli" => $paciente->hiscli,
         "apenom" => $paciente->apenom,
-        "numdoc" => $paciente->numdoc
+            "nombre" => $paciente->nombre,
+            "apellido" => $paciente->apellido,
+            "nombreelegido" => $paciente->nombreelegido,
+            "tipdoc" => $paciente->tipdoc,
+            "numdoc" => $paciente->numdoc,
+            "fecnacimiento" => $paciente->fecnacimiento,
+            "localidadnac" => $paciente->localidadnac,
+            "partidonac" => $paciente->partidonac,
+            "provincianac" => $paciente->provincianac,
+            "paisnac" => $paciente->paisnac,
+            "nacionalidad" => $paciente->nacionalidad,
+            "sexo" => $paciente->sexo,
+            "direccion" => $paciente->direccion,
+            "codcalle" => $paciente->codcalle,
+            "nrocalle" => $paciente->nrocalle,
+            "barrio" => $paciente->barrio,
+            "cuerpo" => $paciente->cuerpo,
+            "depto" => $paciente->depto,
+            "codlocalidad" => $paciente->codlocalidad,
+            "codprovincia" => $paciente->codprovincia,
+            "telefono" => $paciente->telefono,
+            "email"=> $paciente->email,
+            "codobrasoc" => $paciente->codobrasoc,
+            "nroafiliado" => $paciente->nroafiliado,
+            "apellidomadre" => $paciente->apellidomadre,
+            "situacionlaboral" => $paciente->situacionlaboral,
+            "ocupacion" => $paciente->ocupacion,
+            "apellidofamiliar" => $paciente->apellidofamiliar,
+            "telefonofamiliar" => $paciente->telefonofamiliar,
+            "fallecido" => $paciente->fallecido
  
     );
  

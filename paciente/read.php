@@ -36,9 +36,38 @@ if($num>0){
         extract($row);
  
         $paciente_item=array(
-            "hiscli" => $hiscli,
+           "hiscli" => $hiscli,
             "apenom" => $apenom,
-            "numdoc" => $numdoc
+            "nombre" => $nombre,
+            "apellido" => $apellido,
+            "nombreelegido" => $nombreelegido,
+            "tipdoc" => $tipdoc,
+            "numdoc" => $numdoc,
+            "fecnacimiento" => $fecnacimiento,
+            "localidadnac" => $localidadnac,
+            "partidonac" => $partidonac,
+            "provincianac" => $provincianac,
+            "paisnac" => $paisnac,
+            "nacionalidad" => $nacionalidad,
+            "sexo" => $sexo,
+            "direccion" => $direccion,
+            "codcalle" => $codcalle,
+            "nrocalle" => $nrocalle,
+            "barrio" => $barrio,
+            "cuerpo" => $cuerpo,
+            "depto" => $depto,
+            "codlocalidad" => $codlocalidad,
+            "codprovincia" => $codprovincia,
+            "telefono" => $telefono,
+            "email"=> $email,
+            "codobrasoc" => $codobrasoc,
+            "nroafiliado" => $nroafiliado,
+            "apellidomadre" => $apellidomadre,
+            "situacionlaboral" => $situacionlaboral,
+            "ocupacion" => $ocupacion,
+            "apellidofamiliar" =>$apellidofamiliar,
+            "telefonofamiliar" =>$telefonofamiliar,
+            "fallecido" => $fallecido
         );
  
         array_push($paciente_arr["records"], $paciente_item);
