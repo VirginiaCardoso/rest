@@ -48,7 +48,7 @@ if($num>0){
     http_response_code(200);
  
     // show products data in json format
-    echo json_encode($pacientes_arr);
+    echo json_encode($paciente_arr);
 }
  
 else{
